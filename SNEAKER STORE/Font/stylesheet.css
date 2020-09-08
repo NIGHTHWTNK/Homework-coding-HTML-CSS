@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Bangna New';
+    src: url('BangnaNew.woff2') format('woff2'),
+        url('BangnaNew.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+

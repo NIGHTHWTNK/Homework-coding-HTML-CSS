@@ -1,0 +1,460 @@
+html,body,div{
+	margin: 0;
+	padding: 0;
+}/*reset page*/
+#wrapper{
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+header{
+	width: 100%;
+	height: 145px;
+	background-color: #000;
+}
+#logo{
+	width: 12%;
+	margin-left: 250px;
+	cursor: pointer;
+	float: left;
+	margin-right: 20px;
+}
+.header-right{
+	width: 500px;
+	height: 80px;
+	float: right;
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	margin-top: 70px;
+}
+.BTH{
+	font-size: 25px;
+	border: none;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	margin-top: 100px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.BTH:hover{
+	color: red;
+	transition: 0.2s;
+}
+.box{
+	margin-top: 20px;
+	float: left;
+}
+#search{
+	width: 200px;
+	height: 30px;
+	background-color: #333;
+	border: none;
+	padding-left: 10px;
+	float: left;
+	color: #fff;
+	margin-right: 20px;
+}
+.fa-search{
+	margin-top: 7px;
+	float: left;
+	color: #fff;
+	cursor: pointer;
+}
+.fa-search:hover{
+	color: red;
+}
+
+#S1{
+	width: 100%;
+	height: 800px;
+	background-image: url("../Image/PULSEBOOST HD/1.jpg");	
+}
+#S1:hover{
+	width: 100%;
+	height: 800px;
+	transition: 0.8s;
+	background-image: url("../Image/PULSEBOOST HD/adidasPBHD.jpg");	
+}	
+.text_banner{
+	width: 1000px;
+	height: 150px;
+	box-sizing: border-box;
+	margin-top: 35px;
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	margin-right: 650px;
+	font-family: "Arial",sans-serif;
+	 text-shadow: 1px 1px black;
+}
+.text_0{
+	font-size: 75px;
+	color: white;
+	margin-bottom: 13px;	
+}
+.text_0:hover{
+	color: red;
+	transition: 0.3s
+	text-shadow: 2px 2px white;
+}
+.text_1{
+	font-size: 100px;
+	color: white;
+	margin-bottom: 13px;
+}
+.text_2{
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+}
+.text_3{
+	font-size: 100px;
+	color: white;
+	margin-bottom: 13px;
+		
+}
+.text_4{
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+}
+.button{
+	width: 239px;
+	height: 56px;
+	font-size: 25px;
+	cursor: pointer;
+	background-color: rgba(255,255,255,0.5);
+	color: white;
+	
+	border: none;
+}
+.button:hover{
+	background-color: black;
+	transition: 0.3s;
+	color: red;
+	border: none;
+}
+.comingsoon{
+	font-size: 45px;
+	color: white;
+	font-family: "Arial",sans-serif;
+}
+#S2{
+	width: 100%;
+	height: 900px;
+	background-color: black;
+}
+.comingsoon{
+	padding-top: 10px;
+}
+.left{ 	
+	margin-left: 450px;
+}
+.text_5{
+	font-size: 45px;
+	color: white;
+}
+.text_6{
+	font-size: 20px;
+	color: white;
+}
+.text_bannerright{
+	width: 700px;
+	height: 300px;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	margin-right: 110px;
+	margin-top: 335px;
+	font-family: "Arial",sans-serif;
+
+}
+.PDleft{
+	width: 510px;
+	height: 510px;
+	background-image: url("../Image/PULSEBOOST HD/PD1.jpg");
+	margin-left: 450px;
+	float: left;
+	cursor: pointer;
+}
+.PDleft:hover{
+	width: 510px;
+	height: 510px;
+	background-image: url("../Image/PULSEBOOST HD/PD2.jpg");
+	transition: 0.5s;
+}
+.text_7{
+	clear: left;
+	color: white;
+	padding-top: 10px;
+	font-family: "Arial",sans-serif;
+	font-size: 50px;
+	margin-left: 450px;
+	cursor: pointer;
+}
+.text_7:hover{
+	transition: 0.5s;
+	color: red;
+}
+.PDright1{
+	width: 500px;
+	height: 300px;
+	background-image: url("../Image/PULSEBOOST HD/PD3.jpg");
+	z-index: 2;
+	float: left;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+	margin-right: 420px;
+}
+.PDright2{
+	width: 500px;
+	height: 300px;
+	background-image: url("../Image/PULSEBOOST HD/PD4.jpg");
+	z-index: 2;
+	float: left;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+	margin-right: 420px;
+	margin-top: 320px;
+}
+#S3{
+	width: 100%;
+	height: 800px;
+	background-image: url("../Image/ULTRABOOST19/1.jpg");	
+}
+#S3:hover{
+	width: 100%;
+	height: 800px;
+	background-image: url("../Image/ULTRABOOST19/2.jpg");
+	transition: 0.8s;	
+}
+#S4{
+	width: 100%;
+	height: 850px;
+	background-color: black;
+	padding-top: 30px;
+}
+.text_8{
+	color: white;
+	font-size: 50px;
+	font-family: "Arial",sans-serif;
+}
+.ultraboosProduct{
+	font-family: "Arial",sans-serif;
+}
+.UBPD1{
+	width: 324px;
+	height: 324px;
+	background-image: url("../Image/ULTRABOOST19/PD1.jpg");
+	margin-left: 400px;
+	margin-top: 80px;
+	float: left;
+	cursor: pointer;
+}
+.UBPD1:hover{
+	transform: scale(1.2,1.2);
+}
+.UBPD2{
+	width: 324px;
+	height: 324px;
+	background-image: url("../Image/ULTRABOOST19/PD2.jpg");
+	margin-left: 800px;
+	margin-top: 80px;
+	float: left;
+	position: absolute;
+}
+.UBPD2:hover{
+	transform: scale(1.2,1.2);
+}
+.UBPD3{
+	width: 324px;
+	height: 324px;
+	background-image: url("../Image/ULTRABOOST19/PD3.jpg");
+	margin-left: 1200px;
+	margin-top: 80px;
+	position: absolute;
+	float: left;
+}
+.UBPD3:hover{
+	transform: scale(1.2,1.2);
+}
+.fa-caret-right{
+	font-size: 100px;
+	color: white;
+	right: 0;
+	position: absolute;
+	margin-right: 200px;
+	margin-top: 200px;
+	cursor: pointer;
+}
+.fa-caret-right:hover{
+	color: red;
+}
+.fa-caret-left{
+	font-size: 100px;
+	color: white;
+	left: 0;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 200px;
+	cursor: pointer;
+}
+.fa-caret-left:hover{
+	color: red;
+}
+.text_9{
+	color: white;
+	position: absolute;
+	z-index: 2;
+	margin-left: 400px;
+	margin-top: 450px;
+	cursor: pointer;
+}
+.text_9:hover{
+	color: red;
+}
+.text_10{
+	color: white;
+	position: absolute;
+	z-index: 2;
+	margin-left: 800px;
+	margin-top: 450px;
+	cursor: pointer;
+}
+.text_10:hover{
+	color: red;
+}
+.text_11{
+	color: white;
+	position: absolute;
+	z-index: 2;
+	margin-left: 1200px;
+	margin-top: 450px;
+	cursor: pointer;
+}
+.text_11:hover{
+	color: red;
+}
+#S5{
+	width: 100%;
+	height: 800px;
+	background-image: url("../Image/FOOTBALLBOOST/1.jpg");	
+}
+#S5:hover{
+	width: 100%;
+	height: 800px;
+	background-image: url("../Image/FOOTBALLBOOST/2.jpg");
+	transition: 0.8s;		
+}
+#S6{
+	width: 100%;
+	height: 800px;
+	background-image: url("../Image/OZWEEGO/1.jpg");	
+}
+#S6:hover{
+	background-image: url("../Image/OZWEEGO/2.jpg");
+	transition: 0.5s;	
+}
+
+#S7{
+	width: 100%;
+	height: 800px;
+	background-image: url("../Image/x.jpg");	
+	cursor: pointer;
+}
+.text_title{
+	width: 700px;
+	height: 300px;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	margin-right: 110px;
+	margin-top: 460px;
+	font-family: "Arial",sans-serif;
+}
+
+#S8{
+	width: 100%;
+	height: 450px;
+	background-color: black;
+	
+}
+.inputtext{
+	padding-top: 30px;
+	color: white;
+	font-family: "Arial",sans-serif;
+	margin-left: 500px;
+	float: left;
+	font-size: 25px;
+}
+#input{
+	width: 450px;
+	height: 50px;
+	background-color: white;
+	border: none;
+	padding-left: 10px;
+	color: black;
+	position:  absolute;
+	z-index: 2;
+	margin-top: -100px;
+	margin-right: 550px;
+	right: 0;
+
+}
+.fa-play{
+	margin-top: 50px;
+	color: red;
+	cursor: pointer;
+	font-size: 35px;
+	position: absolute;
+	z-index: 2;
+	margin-right: 470px;
+	margin-top: -90px;
+	right: 0;
+}
+.fa-play:hover{
+	color: #c3c3c3;
+}
+#myproduct{
+	position:absolute;
+	margin-top: 200px;
+	color: white;
+	font-family: "Arial",sans-serif;
+	margin-left: 500px;
+}
+#info{
+	position:absolute;
+	margin-top: 200px;
+	color: white;
+	font-family: "Arial",sans-serif;
+	margin-left: 850px;
+}
+#support{
+	position:absolute;
+	margin-top: 200px;
+	color: white;
+	font-family: "Arial",sans-serif;
+	margin-left: 1200px;
+}
+.BTPD{
+	font-size: 20px;
+	border: none;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.BTPD:hover{
+	color: red;
+	transition: 0.3s;
+}
